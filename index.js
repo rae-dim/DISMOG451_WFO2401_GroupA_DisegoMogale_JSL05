@@ -36,7 +36,7 @@ const guardians = {
 function generatePlaylist(guardians, songs) {
     const playlistContainer = document.getElementById("playlists");
     for (const guardian in guardians) {
-        const favoriteGenre = guardians[gaurdian];
+        const favoriteGenre = guardians[guardian];
 
         const playlistSongs = songs.filter(song => song.genre === favoriteGenre);
 
